@@ -46,24 +46,6 @@ class OBJECT_OT_add_object(Operator, AddObjectHelper):
         return {'FINISHED'}
 
 
-# Registration
-
-def add_object_button(self, context):
-    self.layout.operator(
-        OBJECT_OT_add_object.bl_idname,
-        text="Add Object",
-        icon='PLUGIN')
-
-
-# This allows you to right click on a button and link to documentation
-def add_object_manual_map():
-    url_manual_prefix = "https://docs.blender.org/manual/en/latest/"
-    url_manual_mapping = (
-        ("bpy.ops.mesh.add_object", "scene_layout/object/types.html"),
-    )
-    return url_manual_prefix, url_manual_mapping
-
-
 def register():
     bpy.utils.register_class(OBJECT_OT_add_object)
     bpy.utils.register_manual_map(add_object_manual_map)
