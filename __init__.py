@@ -1,3 +1,30 @@
+'''
+Copyright (C) 2023 Blender Foundation and Orange Turbine
+https://blender.org
+https://orangeturbine.com
+
+orangeturbine@cgcookie.com
+
+Created by the Blender Foundation, modified by Jason van Gumster of Orange Turbine.
+
+This file is part of a packaging example around an Add Object add-on.
+
+    Package Example is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    as published by the Free Software Foundation; either version 3
+    of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, see <https://www.gnu.org
+/licenses>.
+''' 
+
+
 bl_info = {
     "name": "New Object",
     "author": "Your Name Here",
