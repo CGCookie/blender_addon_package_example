@@ -11,6 +11,13 @@ bl_info = {
 }
 
 
+import bpy
+
+# Local imports
+
+from .add_object import OBJECT_OT_add_object
+
+
 def add_object_button(self, context):
     self.layout.operator(
         OBJECT_OT_add_object.bl_idname,
