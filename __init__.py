@@ -9,3 +9,11 @@ bl_info = {
     "doc_url": "",
     "category": "Add Mesh",
 }
+
+
+def register():
+    pass
+
+
+def unregister():
+    pass
